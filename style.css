@@ -1,0 +1,70 @@
+body {
+  background-image: url(images/bg.png  ) ;  
+ background-size: 100% ;       /*   calc(100%) ,  cover  */
+ 
+text-align: center;
+}
+ 
+div {
+    margin-top: 220px;
+
+    height: 699px;
+}
+
+h2 {
+margin-bottom: 25px; 
+  font-family: "ABeeZee", sans-serif;
+  color: #eae9e9;
+  font-size: 30px;
+}
+h1 {
+  font-family: "ABeeZee", sans-serif;
+  color: #eae9e9;
+ font-size: 69px;
+ margin-bottom: 60px;
+}
+
+ h3 {
+  font-family: "Overpass", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #f1eded;
+  font-family: 'Robotp'  ;
+  line-height: 20px;
+  
+}
+p {
+  font-family: "ABeeZee", sans-serif;
+  color: #eae9e9;
+}
+
+
+
+button {
+ padding: 18px 66px;
+ border: 0px;
+ border-radius: 30px;
+ font-size: 14px;
+ font-weight: 700;
+ margin-bottom: 330px;
+ margin-top: 90px;
+}
+
+.foto {
+padding-top: 80px;
+  background-color: rgb(28, 28, 28) ;  
+  height: 1388px;
+ 
+}
+
+img {
+  margin: 12px;
+}
+
+.f1 {
+  margin-right: 3pc;
+}
+
+.f4 {
+  margin-left: 3pc;
+}
