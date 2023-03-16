@@ -1,15 +1,17 @@
-body {
+main {
   background-image: url(images/bg.png  ) ;  
  background-size: 100% ;       /*   calc(100%) ,  cover  */
  
+padding-top: 222px;
+   
 text-align: center;
 }
  
-div {
+/* div {
     margin-top: 220px;
-
-    height: 699px;
-}
+ height: 699px;
+   
+} */
 
 h2 {
 margin-bottom: 25px; 
@@ -54,11 +56,101 @@ button {
 padding-top: 80px;
   background-color: rgb(28, 28, 28) ;  
   height: 1388px;
- 
+
 }
 
 img {
   margin: 12px;
 }
 
+.f1 {
+  margin-right: 3pc;
+}
+
+.f4 {
+  margin-left: 3pc;
+}
+
+footer {
+  background-color: rgb(35, 28, 28);
+  height: 144px;
+  color: #f3efef;
  
+
+
+} 
+ 
+.footer {
+
+   display: flex;
+   justify-content: space-between;
+padding:   53px 16px;
+}
+.icon {
+  font-size: smaller;
+  padding-left: 120px;
+}
+
+ p {
+  font-size: smaller;
+
+  padding-top: 10px;
+ }
+
+ .nav-link {
+  color: #f4ecec;
+ }
+  .navbar-nav {
+  
+ padding-left: 730px;
+  
+ }  
+
+ .navbar-brand  {
+  padding-left: 50px;
+ }
+
+ @media (max-width: 600px) {
+  /* h1,  h3, h2  {
+    color: red;
+  } */
+
+ 
+
+  .navbar-brand {
+color: #fa5908;
+font-size: 22px;
+font-weight: 700;
+  
+}
+body {
+
+background-color: #1bd20e;
+
+}
+ nav  {
+  display: none;
+ }
+
+ main {
+
+  display: none;
+  /*   background-image: url(images\Rectangle2.png) ;  
+ background-size: 100% ;      
+ 
+padding-top: 1222px;
+   
+text-align: center; */
+}
+
+footer {
+display: none;
+
+}
+/* button {
+display: none;
+
+} */
+
+
+}
