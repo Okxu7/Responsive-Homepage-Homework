@@ -1,15 +1,17 @@
-body {
+main {
   background-image: url(images/bg.png  ) ;  
  background-size: 100% ;       /*   calc(100%) ,  cover  */
  
+padding-top: 222px;
+   
 text-align: center;
 }
  
-div {
+/* div {
     margin-top: 220px;
-
-    height: 699px;
-}
+ height: 699px;
+   
+} */
 
 h2 {
 margin-bottom: 25px; 
@@ -54,7 +56,7 @@ button {
 padding-top: 80px;
   background-color: rgb(28, 28, 28) ;  
   height: 1388px;
- 
+
 }
 
 img {
@@ -68,3 +70,33 @@ img {
 .f4 {
   margin-left: 3pc;
 }
+
+footer {
+  background-color: rgb(35, 28, 28);
+  height: 144px;
+  color: #f3efef;
+ 
+
+
+} 
+ 
+.footer {
+
+   display: flex;
+   justify-content: space-between;
+padding:   53px 16px;
+}
+.icon {
+  font-size: smaller;
+  padding-left: 120px;
+}
+
+ p {
+  font-size: smaller;
+
+  padding-top: 10px;
+ }
+
+ .nav-link {
+  color: #f4ecec;
+ }
